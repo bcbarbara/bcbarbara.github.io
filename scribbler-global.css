@@ -8,7 +8,7 @@
   --white-color: #FAFBFC;
   --light-gray-color: #C6CBD1;
   --medium-gray-color: #959DA5;
-  --dark-gray-color: #444D56; 
+  --dark-gray-color: #444D56;
   --bg-color: #F8F8FA;
   --code-bg-color: #F0E8E8;
 }
@@ -46,6 +46,7 @@ hr {
 /* typography */
 .section__title {
   color: var(--primary-color);
+  text-align: left;
 }
 
 /* tabs */
@@ -293,6 +294,7 @@ table td:first-child {
 .wrapper {
   margin: 0 auto;
   width: 70%;
+  text-align: justify;
 }
 
 .footer {
@@ -300,6 +302,10 @@ table td:first-child {
   background-color: var(--primary-color);
   padding: 2rem;
   color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 @keyframes fadeUp {
