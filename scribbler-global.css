@@ -293,6 +293,7 @@ table td:first-child {
 /* layout */
 .wrapper {
   margin: 0 auto;
+  margin-bottom: -142px;
   width: 70%;
   text-align: justify;
 }
@@ -300,12 +301,12 @@ table td:first-child {
 .footer {
   text-align: center;
   background-color: var(--primary-color);
-  padding: 2rem;
+  padding: 1rem;
   color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position:absolute;
+  bottom:0px;
   width: 100%;
+  font-weight: 100;
 }
 
 @keyframes fadeUp {
