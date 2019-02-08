@@ -303,7 +303,7 @@ table td:first-child {
   background-color: var(--primary-color);
   padding: 1rem;
   color: white;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
