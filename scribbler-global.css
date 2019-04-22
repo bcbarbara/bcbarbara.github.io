@@ -236,6 +236,15 @@ nav {
   display: none;
 }
 
+.project__item{
+  cursor: pointer;
+}
+
+#hp  {
+float: right;
+ margin: 0 0 0 15px;
+}
+
 /* table */
 table {
   border-collapse: collapse;
@@ -298,14 +307,12 @@ table td:first-child {
 }
 
 .footer {
+  margin: 0;
   text-align: center;
-  background-color: var(--primary-color);
-  padding: 1rem;
-  color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  overflow: hidden;
+  list-style: none;
+  border: 1px solid var(--code-bg-color);
+  padding: 0.5rem;
 }
 
 @keyframes fadeUp {

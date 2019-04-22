@@ -14,7 +14,7 @@
   <body>
     <div class="doc__bg"></div>
     <nav class="header">
-      <h1 class="logo">Projects <span class="logo__thin"></span></h1>
+      <h1 class="logo">Bárbara <span class="logo__thin"></span></h1>
       <ul class="menu">
         <div class="menu__item toggle"><span></span></div>
         <li class="menu__item"><a href="index.html" class="link link--dark"> About</a></li>
@@ -27,51 +27,23 @@
 
       <article class="doc__content">
         <section class="js-section">
-          <h3 class="project__item"><a href="autopilot.html" class="link link--dark"> Autopilot</a>
-            <img src="img/autopilot.jpg" alt="autopilot" width="80" height="80" align="right">
-          </h3>
+          <h3 class="section__title">Autopilot</h3>
+            <img src="img/autopilot.jpg" alt="autopilot" width="300" height="300" align="right" id="hp">
             <p style="line-height:0.95">
             <font size="2">
-              Autopilot system designed for a quadrotor.
-            </font><br>
-          </p>
-        </section>
-        <hr />
-        <section class="js-section">
-          <h3 class="project__item"><a href="pelican.html" class="link link--dark">Pelican Simulator</a>
-            <img src="img/pelican.png" alt="pelican" width="80" height="80" align="right">
-          </h3>
-          <p style="line-height:0.95">
+              In the early stages of my research as an undergraduated, I designed the software for flight control of a quadrotor. It was used a <a href="https://beagleboard.org/black" class="link link--dark"> <b>Beaglebone Black (BBB) Rev C</b></a> embedded with Debian 8 Jessie as platform of development. The software was divided in three levels according to the task:
+                <ul>
+                  <li> Low-level: altitude measurements from sonar. Written in Assembly using BBB's programmable real-time unit (PRU). </li>
+                  <li> Middle-level: middleware to export the methods written in Assembly as shared libraries to be used by the main program. Written in C++.</li>
+                  <li> High-level: sensors' calibration and reading, control law and motors' output. Written in Python. </li>
+                </ul>
+            <p style="line-height:0.95">
             <font size="2">
-              V-REP plugin for Pelican quadrotor.
+              I've also contributed to the development of one Device Tree Source for BBB that was needed for the managment of the board I/O in my project. The code can be found <a href="https://github.com/Babi-Wan/cape-firmware" class="link link--dark"> <b>here</b>.
             </font><br>
           </p>
         </section>
-        <hr />
-        <section class="js-section">
-          <h3 class="project__item"><a href="hummingbird.html" class="link link--dark">Hummingbird</a>
-            <img src="img/hummingbird.png" alt="hummingbird" width="80" height="80" align="right">
-          </h3>
-          <p style="line-height:0.95">
-            <font size="2">
-              Small quadrotor platform for experimentation with estimation and control algorithms.
-            </font><br>
-          </p>
-        </section>
-        <hr />
-        <section class="js-section">
-          <h3 class="project__item"><a href="pendubot.html" class="link link--dark">Pendubot</a>
-            <img src="img/pendubot.png" alt="pendubot" width="80" height="80" align="right">
-          </h3>
-          <p style="line-height:0.95">
-            <font size="2">
-              Underactuated double-pendulum for experimentation of swing-up controllers.
-            </font><br>
-          </p>
-        </section>
-        <hr />
-      </article>
-    </div>
+      </div>
     <footer class="footer"> <i class="fa fa-map-o" aria-hidden="true"></i> Robotics Lab. Via Ariosto 25, 00185 Rome, Italy.<div><i class="fa fa-envelope-o" aria-hidden="true"></i> barros@diag.uniroma1.it</div></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
