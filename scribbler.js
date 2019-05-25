@@ -13,7 +13,7 @@ var getAll = function (selector, scope) {
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `sudo find . -name "summary"
-            PhD student in Automatica at Sapienza Università di Roma. Bachelor degree in Mechatronics Engineering, IFCE, Brazil (2017).`;
+            I am a PhD student in robotics and automation at Sapienza Università di Roma. I have a bachelor degree in Mechatronics Engineering by IFCE, Brazil (2017).`;
   var speed = 60;
 
   function typeItOut () {
