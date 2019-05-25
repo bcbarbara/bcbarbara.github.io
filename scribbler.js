@@ -13,7 +13,7 @@ var getAll = function (selector, scope) {
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `sudo find . -name "summary"
-            Currently PhD student in Automatica at Sapienza Università di Roma. Bachelor degree in Mechatronics Engineering, IFCE, Brazil (2017).`;
+            PhD student in Automatica at Sapienza Università di Roma. Bachelor degree in Mechatronics Engineering, IFCE, Brazil (2017).`;
   var speed = 60;
 
   function typeItOut () {
@@ -61,7 +61,7 @@ window.addEventListener("load", function() {
   }
 });
 
-//in page scrolling for documentaiton page
+//in page scrolling for documentation page
 var btns = getAll('.js-btn');
 var sections = getAll('.js-section');
 
