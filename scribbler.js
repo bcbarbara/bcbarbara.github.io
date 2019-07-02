@@ -12,7 +12,7 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `sudo find . -name "summary"
+  var txt = `find -name 'summary'  -exec cat {} +
             I am a PhD student in robotics and automation at Sapienza Università di Roma. I have a bachelor degree in Mechatronics Engineering by IFCE, Brazil (2017).`;
   var speed = 60;
 
