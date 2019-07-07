@@ -113,3 +113,30 @@ html, body {
     display: none;
   }
 }
+
+.hollow-circle{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4A4A4A;
+  background-color: rgba(0, 0, 0, 0);
+  top:0;
+  left:0;
+  pointer-events:none;
+}
+.filled-circle{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4A4A4A;
+  background-color: #4A4A4A;
+  top:0;
+  left:0;
+  pointer-events:none;
+}
