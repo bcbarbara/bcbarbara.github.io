@@ -31,25 +31,33 @@
             <img src="img/crazyflie.jpeg" alt="crazyflie" width="300" height="300" align="right" id="hp">
             <p style="line-height:0.95">
             <font size="2">
-            The <a href="https://www.bitcraze.io/crazyflie-2-1/" class="link link--dark"> <b>Crazyflie 2.1</b></a> nano quadcopter is my current project as a visting PhD student in the University of Freiburg, Germany. I've been under the supervision of professor Moritz Diehl at the <a href="https://www.syscop.de" class="link link--dark"> <b>Systems Control and Optimization Laboratory (syscop)</b></a>, and supported by the <a href="http://ais.informatik.uni-freiburg.de/index_en.php" class="link link--dark"> <b>Autonomous Intelligent Systems Lab</b></a> of professor Wolfram Burgard and <a href="https://kiteswarms.com" class="link link--dark"> <b>Kiteswarms</b></a>.
+            The <a href="https://www.bitcraze.io/crazyflie-2-1/" class="link link--dark"> <b>Crazyflie 2.1</b></a> nano quadcopter is the current development platform for my projects as a visting PhD student in the IMTEK University of Freiburg, Germany. I've been under the supervision of professor Moritz Diehl at the <a href="https://www.syscop.de" class="link link--dark"> <b>Systems Control and Optimization Laboratory (syscop)</b></a>, and also supported by the <a href="http://ais.informatik.uni-freiburg.de/index_en.php" class="link link--dark"> <b>Autonomous Intelligent Systems Lab (AIS)</b></a> of professor Wolfram Burgard and <a href="https://kiteswarms.com" class="link link--dark"> <b>Kiteswarms</b></a>
+
+            <br><br>
+            All the experiments were performed in the Autonomous Intelligent Systems arena which has ten Raptor-E cameras at 100 Hz. On the other hand, the Crazyflie counts with:
+            <ul>
+              <li> IMU. </li>
+              <li> Optical flow camera. </li>
+              <li> Miniature autopilot. </li>
+              <li> Bluetooth LE.</li>
+              <li> Low-latency/long-range radio.</li>
+            </ul>
             </font><br>
             </p>
-            <h5 class="section__title">NMPC for trajectory generation and tracking</h5>
+            <hr/>
+            <h5 class="section__title">Time-delay compensation due to communication latency using NMPC</h5>
             <p style="line-height:0.95">
             <font size="2">
-              The project is about trajectory generation and tracking using NMPC for collision avoidance with dynamic obstacles. It consists in an efficient and modular implementation of a Nonlinear Model Predictive Control (NMPC) tailored for the Crazyflie's online trajectory generation and tracking problem. A Real-Time Iteration (RTI) scheme through a Sequential Quadratic Programming (SQP) online algorithm is used in order to solve the Nonlinear Program (NLP). Initially the problem is solved offline using a primal-dual interior-point method solver with CasADi, and then a high-performance interior-point method solver is used for the online calculations through acados interface.<br/><br/>
+              When flying, the Crazyflie is able to log a limited amount of data back to the ground station. By doing so, and depending on the size of the data package, this will cause latency issues and delays in receiving the requested onboard information from the ground station. Due to this fact, the majority of the control strategies is then made onboard the Crazyflie which allows to perform fast angular position and rate stabilization. On the other hand, one has to consider that the limited onboard computational resources also limits the range of control techniques that can be used for stabilization. Therefore, in this project it is proposed a time-delay compensation strategy so an offboard NMPC can be used for full state control.
+            </font><br>
+            </p>
+            <hr/>
+            <h5 class="section__title">NMPC for trajectory generation and tracking with obstacle avoidance</h5>
+            <p style="line-height:0.95">
+            <font size="2">
+              The project is about onlinea trajectory generation using NMPC for collision avoidance with dynamic obstacles. It consists in an efficient and modular implementation of a NMPC tailored for the Crazyflie's online trajectory generation problem. A Real-Time Iteration (RTI) scheme through a Sequential Quadratic Programming (SQP) online algorithm is used in order to solve the Nonlinear Program (NLP). Initially the problem is solved offline using a primal-dual interior-point method solver with CasADi, and then a high-performance interior-point method solver is used for the online calculations through acados interface.<br/><br/>
 
-              The tests are performed in the Autonomous Intelligent Systems arena which has ten Raptor-E cameras at 100 Hz used to record datasets for the experiments. On the other hand, the crazyflie counts with:
-              <ul>
-                <li> IMU. </li>
-                <li> Optical flow camera. </li>
-                <li> Miniature autopilot. </li>
-                <li> Bluetooth LE.</li>
-                <li> Low-latency/long-range radio.</li>
-              </ul>
-              <p style="line-height:0.95">
-              <font size="2">
-              The simulations considering a <i>free</i> and an <i>occupied space</i> with a <u>fixed</u> obstacle may be seen:
+              The simulations considering a <i>free</i> and an <i>occupied space</i> with a fixed obstacle may be seen:
               <table style="border: none; border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
               <tr>
               <td align="center" valign="center" style="background-color:rgba(0, 0, 0, 0);" width="50%">
@@ -59,11 +67,15 @@
               <img width=100% src="img/crazyflie_obs.gif" alt="occupied-space"/>
               </td>
               </table>
-              <p style="line-height:0.95">
-              <font size="2">
-              A ROS package has been developed for the real application and the code may be found <a href="https://github.com/bcbarbara/crazyflie_ros" class="link link--dark"> <b>here</b></a>.
-
             </font><br>
+            </font><br>
+            </p>
+          <hr/>
+          <h5 class="section__title">Tangential predictor for advanced-step NMPC based on parametric sensitivities</h5>
+          <p style="line-height:0.95">
+          <font size="2">
+            The computational demand is one of main drawbacks of NMPC controllers when applied to real systems with limited computational capabilities, such as the Crazyflie. In this project, we use the advanced step NMPC (asNMPC) controller concept, a sensitivity based approximation to the solution of the resulting NLP, in order to handle the computational burden onboard the Crazyflie.
+          </font><br>
           </p>
         </section>
       </div>
