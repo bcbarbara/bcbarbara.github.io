@@ -31,12 +31,11 @@
             <img src="img/crazyflie.jpeg" alt="crazyflie" width="300" height="300" align="right" id="hp">
             <p style="line-height:0.95">
             <font size="2">
-            The <a href="https://www.bitcraze.io/crazyflie-2-1/" class="link link--dark"> <b>Crazyflie 2.1</b></a> nano quadcopter is the current development platform for my projects as a visting PhD student in the IMTEK University of Freiburg, Germany. I've been under the supervision of professor Moritz Diehl at the <a href="https://www.syscop.de" class="link link--dark"> <b>Systems Control and Optimization Laboratory (syscop)</b></a>, and also supported by the <a href="http://ais.informatik.uni-freiburg.de/index_en.php" class="link link--dark"> <b>Autonomous Intelligent Systems Lab (AIS)</b></a> of professor Wolfram Burgard and <a href="https://kiteswarms.com" class="link link--dark"> <b>Kiteswarms</b></a>
-
+            The <a href="https://www.bitcraze.io/crazyflie-2-1/" class="link link--dark"> <b>Crazyflie 2.1</b></a> nanoquadcopter is the development platform for my projects as a visiting PhD student at the IMTEK University of Freiburg, Germany. I've been under the supervision of professor Moritz Diehl at the <a href="https://www.syscop.de" class="link link--dark"> <b>Systems Control and Optimization Laboratory (syscop)</b></a>, and also supported by the <a href="http://ais.informatik.uni-freiburg.de/index_en.php" class="link link--dark"> <b>Autonomous Intelligent Systems Lab (AIS)</b></a> of professor Wolfram Burgard and also <a href="https://kiteswarms.com" class="link link--dark"> <b>Kiteswarms</b></a>.
             <br><br>
-            All the experiments were performed in the Autonomous Intelligent Systems arena which has ten Raptor-E cameras at 100 Hz. On the other hand, the Crazyflie counts with:
+            All the experiments were performed at the AIS arena which has ten Raptor-E cameras running at 100 Hz. Furthermore, the Crazyflie count with:
             <ul>
-              <li> IMU. </li>
+              <li> Inertial measurement unit. </li>
               <li> Optical flow camera. </li>
               <li> Miniature autopilot. </li>
               <li> Bluetooth LE.</li>
@@ -45,7 +44,8 @@
             </font><br>
             </p>
             <hr/>
-            <h5 class="section__title">Time-delay compensation due to communication latency using NMPC</h5>
+            <h5 class="section__title">NMPC for position control under communication time-delay</h5>
+            <img src="img/blended_pic.png" alt="helix" width="300" height="300" align="right" id="hp">
             <p style="line-height:0.95">
             <font size="2">
               When flying, the Crazyflie is able to log a limited amount of data back to the ground station. By doing so, and depending on the size of the data package, this will cause latency issues and delays in receiving the requested onboard information from the ground station. Due to this fact, the majority of the control strategies is then made onboard the Crazyflie which allows to perform fast angular position and rate stabilization. On the other hand, one has to consider that the limited onboard computational resources also limits the range of control techniques that can be used for stabilization. Therefore, in this project it is proposed a time-delay compensation strategy so an offboard NMPC can be used for full state control.
@@ -53,8 +53,7 @@
             </p>
             <p style="line-height:0.95">
             <font size="2">
-              The package I developed contains an efficient and modular implementation of a Nonlinear Model Predictive Control (NMPC) tailored for theCrazyflie’s online trajectory generation and tracking problem. A Real-Time Iteration (RTI) scheme through a Sequential QuadraticProgramming (SQP) online algorithm is used in order to solve the Nonlinear Program (NLP). The code can be found at:
-            <br><br>
+              This ROS stack contains the implementation of a position controller for the Crazyflie 2.1 based on NMPC with time delay compensation and bounds enforcement on the actuators. Due to the limited computational resources onboard, an offboard high-level position controller is proposed using the recently released high-performance software package <tt>acados</tt> which exploits the real-time iteration (RTI) scheme with Gauss-Newton Hessian approximation. The quadratic problems (QPs) arising in the NMPC problem are solved with <tt>HPIPM</tt>, an interior-point solver, based on the linear algebra library <tt>BLASFEO</tt> which is hand optimized for most recent CPU architectures.<br><br>
             <a href="https://github.com/bcbarbara/crazyflie_nmpc" class="link link--dark">
               <i class="fa fa-github" aria-hidden="true"></i>
               </span>
@@ -63,22 +62,15 @@
             </font><br>
             </p>
             <hr/>
-            <h5 class="section__title">NMPC for trajectory generation and tracking with obstacle avoidance</h5>
+            <h5 class="section__title">NEON: real-time local planner for dynamic environments</h5>
             <p style="line-height:0.95">
             <font size="2">
-              The project is about onlinea trajectory generation using NMPC for collision avoidance with dynamic obstacles. It consists in an efficient and modular implementation of a NMPC tailored for the Crazyflie's online trajectory generation problem. A Real-Time Iteration (RTI) scheme through a Sequential Quadratic Programming (SQP) online algorithm is used in order to solve the Nonlinear Program (NLP). Initially the problem is solved offline using a primal-dual interior-point method solver with CasADi, and then a high-performance interior-point method solver is used for the online calculations through acados interface.<br/><br/>
-
-              The simulations considering a <i>free</i> and an <i>occupied space</i> with a fixed obstacle may be seen:
+              NEON (Nearness Enhancement OptimizatioN), a novel approach for motion planning in dynamic environments based on real-time nonlinear model predictive control (NMPC). At the core of our approach is a formulation built upon the algorithmic ideas of the real-time iteration (RTI) scheme with Gauss-Newton Hessian approximation. NEON obtains least conservative trajectories by enabling the local planning to benefit from the proximity to the boundaries of the linearized feasible set. Furthermore, we exploit the implementation of the RTI scheme by means of the high-performance software package <tt>acados</tt> in order to develop an efficient framework.
               <table style="border: none; border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
-              <tr>
-              <td align="center" valign="center" style="background-color:rgba(0, 0, 0, 0);" width="50%">
-              <img width=100% src="img/crazyflie.gif" alt="free-space"/>
-              </td>
               <td align="center" valign="center" bgcolor="#FFFFFF" width="50%">
-              <img width=100% src="img/crazyflie_obs.gif" alt="occupied-space"/>
+              <img width=100% src="img/short_traj.png" alt="occupied-space"/>
               </td>
               </table>
-            </font><br>
             </font><br>
             </p>
         </section>
