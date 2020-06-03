@@ -31,7 +31,7 @@
             <img src="img/crazyflie.jpeg" alt="crazyflie" width="300" height="300" align="right" id="hp">
             <p style="line-height:0.95">
             <font size="2">
-            The <a href="https://www.bitcraze.io/crazyflie-2-1/" class="link link--dark"> <b>Crazyflie 2.1</b></a> nanoquadcopter is the development platform for my projects as a visiting PhD student at the IMTEK University of Freiburg, Germany. I've been under the supervision of professor Moritz Diehl at the <a href="https://www.syscop.de" class="link link--dark"> <b>Systems Control and Optimization Laboratory (syscop)</b></a>, and also supported by the <a href="http://ais.informatik.uni-freiburg.de/index_en.php" class="link link--dark"> <b>Autonomous Intelligent Systems Lab (AIS)</b></a> of professor Wolfram Burgard and also <a href="https://kiteswarms.com" class="link link--dark"> <b>Kiteswarms</b></a>.
+            The <a href="https://www.bitcraze.io/crazyflie-2-1/" class="link link--dark"> <b>Crazyflie 2.1</b></a> nanoquadcopter is the development platform for my projects as a visiting PhD student at the IMTEK University of Freiburg, Germany. I've been under the supervision of professor Moritz Diehl at the <a href="https://www.syscop.de" class="link link--dark"> <b>Systems Control and Optimization Laboratory (syscop)</b></a>, and also supported by the <a href="http://ais.informatik.uni-freiburg.de/index_en.php" class="link link--dark"> <b>Autonomous Intelligent Systems Lab (AIS)</b></a> of professor Wolfram Burgard, and <a href="https://kiteswarms.com" class="link link--dark"> <b>Kiteswarms</b></a>.
             <br><br>
             All the experiments were performed at the AIS arena which has ten Raptor-E cameras running at 100 Hz. Furthermore, the Crazyflie count with:
             <ul>
@@ -62,13 +62,16 @@
             </font><br>
             </p>
             <hr/>
-            <h5 class="section__title">NEON: real-time local planner for dynamic environments</h5>
+            <h5 class="section__title">Least Conservative Linearized Constraint Formulation for Real-Time Motion Generation</h5>
             <p style="line-height:0.95">
             <font size="2">
-              NEON (Nearness Enhancement OptimizatioN), a novel approach for motion planning in dynamic environments based on real-time nonlinear model predictive control (NMPC). At the core of our approach is a formulation built upon the algorithmic ideas of the real-time iteration (RTI) scheme with Gauss-Newton Hessian approximation. NEON obtains least conservative trajectories by enabling the local planning to benefit from the proximity to the boundaries of the linearized feasible set. Furthermore, we exploit the implementation of the RTI scheme by means of the high-performance software package <tt>acados</tt> in order to develop an efficient framework.
-              <table style="border: none; border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+              novel method for motion generation in dynamic environments based on real-time nonlinear model predictive control (NMPC). At the core of our approach is a least conservative linearized constraint formulation built upon the real-time iteration (RTI) scheme with Gauss-Newton Hessian approximation. We demonstrate that the proposed constraint formulation is less conservative for planners based on Newton-type method than for those based on a fully converged NMPC method. Additionally, we show the performance of our approach in simulation, in a scenario where the Crazyflie nanoquadcopter avoids balls and reaches its desired goal in spite of the uncertainty about when the balls will be thrown. The numerical results validate our theoretical findings and illustrate the computational efficiency of the proposed scheme.
+            <table style="border: none; border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
               <td align="center" valign="center" bgcolor="#FFFFFF" width="50%">
-              <img width=100% src="img/short_traj.png" alt="occupied-space"/>
+              <img width=100% src="img/short_traj.png" alt="short_traj"/>
+              </td>
+              <td align="center" valign="center" bgcolor="#FFFFFF" width="50%">
+              <img width=100% src="img/cluttered_env.png" alt="cluttered_env"/>
               </td>
               </table>
             </font><br>
