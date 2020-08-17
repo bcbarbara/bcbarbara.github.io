@@ -17,7 +17,7 @@
       <link>/project/mikrokopter/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/project/mikrokopter/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt; During my period as visiting PhD student at the LAAS-CNRS, Toulouse, France, I heavily worked with the &lt;a href=&#34;https://www.mikrokopter.de/en/home&#34;&gt;mikrokopter&lt;/a&gt; platform. I was under the supervision of Dr. &lt;a href=&#34;http://homepages.laas.fr/afranchi/robotics/&#34;&gt;Antonio Franchi&lt;/a&gt; at the &lt;a href=&#34;https://www.laas.fr/public/en/ris&#34;&gt;Robotics and Interactions (RIS) team&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt; During my period as visiting PhD student at the LAAS-CNRS, Toulouse, France, I heavily worked with the &lt;a href=&#34;https://www.mikrokopter.de/en/home&#34;&gt;mikrokopter&lt;/a&gt; platform. I was under the supervision of Dr. Antonio Franchi at the &lt;a href=&#34;https://www.laas.fr/public/en/ris&#34;&gt;Robotics and Interactions (RIS) team&lt;/a&gt;.&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt; As the platform was equipped with an &lt;a href=&#34;https://ark.intel.com/content/www/us/en/ark/products/95068/intel-nuc-board-nuc7i7bnb.html&#34;&gt;Intel NUC7i7BNB&lt;/a&gt;, I developed a tailored NMPC, able to take advantage of the computational resources of the target CPU and run efficiently onboard. All subsequent solutions were then able to benefit from this base framework, developed under the GenoM3 architecture. One of those solutions was an NMPC applied to a quadrotor-slung payload system for the task of transportation on suspension. Another solution was a mixed-initiative control method for human-robot systems based on real-time NMPC. This method handles the complex connection between the human inputs and the automatic controller commands for tasks requiring either assistive or shared control. It was numerically validated using the dynamic model of the real mikrokopter.&lt;/p&gt;
 </description>
     </item>
@@ -37,7 +37,7 @@
       <link>/project/pendubot/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/project/pendubot/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt; At the beginning of my studies on real-time NMPC, I worked on its application to a challenging underactuated system. NMPC was combined with control-state trajectories generated from a learned policy to enforce constraints over a robotic system, as reinforcement learning is an unconstrained optimization technique. This method was experimentally validated on the Pendubot, aiming to perform a swing-up task. &lt;/p&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt; At the beginning of my studies on real-time NMPC, I worked on its application to a challenging underactuated system. The NMPC was combined with control-state trajectories generated from a learned policy to enforce constraints on a robotic system. This method was experimentally validated on the Pendubot, aiming to perform a swing-up task. &lt;/p&gt;
 </description>
     </item>
     
@@ -46,13 +46,13 @@
       <link>/project/autopilot/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/project/autopilot/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt;In the early stages of my research as an undergraduate, I designed the software for flight control of a quadrotor prototype. I used a &lt;a href=&#34;https://beagleboard.org/black&#34;&gt;Beaglebone Black (BBB) Rev C&lt;/a&gt; with Debian 8 Jessie as development board. The software had three layers which were divided according to the task: &lt;/p&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt;My undergraduate research focused essentially on developing a flight controller for a quadcopter prototype. I used a &lt;a href=&#34;https://beagleboard.org/black&#34;&gt;Beaglebone Black (BBB) Rev C&lt;/a&gt; with Debian 8 Jessie as a development board. The software had three layers that were divided according to the task: &lt;/p&gt;
   &lt;ul&gt;
-    &lt;li&gt; Low-level: altitude measurements from sonar. Written in Assembly and target to the BBB&#39;s programmable real-time unit (PRU). &lt;/li&gt;
-    &lt;li&gt; Middle-level: methods written in C and compiled as shared libraries that were needed by the main program.&lt;/li&gt;
-    &lt;li&gt; High-level: sensors&#39; calibration and reading, control law and motors&#39; output. Written in Python. &lt;/li&gt;
+    &lt;li&gt; Low level: sonar altitude measurements. Written in Assembly and target to the BBB&#39;s programmable real-time unit (PRU).&lt;/li&gt;
+    &lt;li&gt; Middle level: methods written in C and compiled as shared libraries that were needed for the main program.&lt;/li&gt;
+    &lt;li&gt; High level: calibration and reading of sensors, control law and motor output. Written in Python.&lt;/li&gt;
   &lt;/ul&gt;
-&lt;p align=&#34;justify&#34;&gt; I have also contributed to the development of a BBB Device Tree Source, as I needed a custom management of the board&#39;s I/O in my project. The source files can be found &lt;a href=&#34;https://github.com/beagleboard/devicetree-source&#34; class=&#34;link link--dark&#34;&gt;here.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; I also contributed to the development of a BBB Device Tree Source, as I needed a customized board I/O management in my project. The source files can be found &lt;a href=&#34;https://github.com/beagleboard/devicetree-source&#34; class=&#34;link link--dark&#34;&gt;here.&lt;/p&gt;
 </description>
     </item>
     
