@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quadrotor | Bárbara</title>
+    <link>/tag/quadrotor/</link>
+      <atom:link href="/tag/quadrotor/index.xml" rel="self" type="application/rss+xml" />
+    <description>Quadrotor</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Quadrotor</title>
+      <link>/tag/quadrotor/</link>
+    </image>
+    
+    <item>
+      <title>Least Conservative Linearized Constraint Formulation for Real-Time Motion Generation</title>
+      <link>/publication/crazyflie-ifac/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/crazyflie-ifac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mikrokopter</title>
+      <link>/project/mikrokopter/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/mikrokopter/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt; During my period as visiting PhD student at the LAAS-CNRS, Toulouse, France, I heavily worked with the &lt;a href=&#34;https://www.mikrokopter.de/en/home&#34;&gt;mikrokopter&lt;/a&gt; platform. I was under the supervision of Dr. &lt;a href=&#34;http://homepages.laas.fr/afranchi/robotics/&#34;&gt;Antonio Franchi&lt;/a&gt; at the Robotics and Interactions (RIS) team.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; As the platform was equipped with an &lt;a href=&#34;https://ark.intel.com/content/www/us/en/ark/products/95068/intel-nuc-board-nuc7i7bnb.html&#34;&gt;Intel NUC7i7BNB&lt;/a&gt;, I developed a tailored NMPC, able to take advantage of the computational resources of the target CPU and run efficiently onboard. All subsequent solutions were then able to benefit from this base framework, developed under the GenoM3 architecture. One of those solutions was an NMPC applied to a quadrotor-slung payload system for the task of transportation on suspension. Later, I developed a mixed-initiative control method for human-robot systems based on real-time NMPC. This method handles the complex connection between the human inputs and the automatic controller commands for tasks requiring either assistive or shared control. It was numerically validated using the dynamic model of the real mikrokopter.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Crazyflie</title>
+      <link>/project/crazyflie/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <guid>/project/crazyflie/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt; The &lt;a href=&#34;https://www.bitcraze.io/crazyflie-2-1/&#34;&gt;Crazyflie 2.1&lt;/a&gt; nanoquadrotor was the platform I used in my projects during the period as visiting PhD student at the IMTEK University of Freiburg, Germany. I was under the supervision of professor Moritz Diehl at the &lt;a href=&#34;https://www.syscop.de&#34;&gt;Systems Control and Optimization Laboratory (syscop)&lt;/a&gt;, supported by the &lt;a href=&#34;http://ais.informatik.uni-freiburg.de/index_en.php&#34;&gt;Autonomous Intelligent Systems Lab (AIS)&lt;/a&gt; of professor Wolfram Burgard, and also &lt;a href=&#34;https://kiteswarms.com&#34;&gt;Kiteswarms&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; When flying, the Crazyflie is able to log a limited amount of data back to the ground station. By doing so, and depending on the size of the data package, this will cause latency issues and delays in receiving the requested onboard information from the ground station. Due to this fact, the majority of the control strategies is then made onboard the Crazyflie which allows to perform fast angular position and rate stabilization. On the other hand, one has to consider that the limited onboard computational resources also limits the range of control techniques that can be used for stabilization. Therefore, I initially proposed a time-delay compensation strategy so an offboard NMPC can be used for position control. Later, a scheme for real-time motion generation in dynamic environments was built on top of the previous solution.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autopilot</title>
+      <link>/project/autopilot/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/project/autopilot/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt; In the early stages of my research as an undergraduate, I designed the software for flight control of a quadrotor prototype. I used a &lt;a href=&#34;https://beagleboard.org/black&#34;&gt;Beaglebone Black (BBB) Rev C&lt;/a&gt; with Debian 8 Jessie as development board. The software had three layers and was divided according to the task:
+  &lt;ul&gt;
+    &lt;li&gt; Low-level: altitude measurements from sonar. Written in Assembly using BBB&#39;s programmable real-time unit (PRU). &lt;/li&gt;
+    &lt;li&gt; Middle-level: call for the methods written in Assembly and compiled as shared libraries that were needed by the main program. Written in C++.&lt;/li&gt;
+    &lt;li&gt; High-level: sensors&#39; calibration and reading, control law and motors&#39; output. Written in Python. &lt;/li&gt;
+  &lt;/ul&gt;
+I have also contributed to the development of one Device Tree Source for BBB that was needed for the management of the board&#39;s I/O in my project. The source files can be found &lt;a href=&#34;https://github.com/beagleboard/devicetree-source&#34; class=&#34;link link--dark&#34;&gt;here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
