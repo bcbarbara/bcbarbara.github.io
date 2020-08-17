@@ -46,13 +46,13 @@
       <link>/project/autopilot/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/project/autopilot/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt; In the early stages of my research as an undergraduate, I designed the software for flight control of a quadrotor prototype. I used a &lt;a href=&#34;https://beagleboard.org/black&#34;&gt;Beaglebone Black (BBB) Rev C&lt;/a&gt; with Debian 8 Jessie as development board. The software had three layers and was divided according to the task:
+      <description>&lt;p align=&#34;justify&#34;&gt;In the early stages of my research as an undergraduate, I designed the software for flight control of a quadrotor prototype. I used a &lt;a href=&#34;https://beagleboard.org/black&#34;&gt;Beaglebone Black (BBB) Rev C&lt;/a&gt; with Debian 8 Jessie as development board. The software had three layers and was divided according to the task: &lt;/p&gt;
   &lt;ul&gt;
     &lt;li&gt; Low-level: altitude measurements from sonar. Written in Assembly using BBB&#39;s programmable real-time unit (PRU). &lt;/li&gt;
     &lt;li&gt; Middle-level: call for the methods written in Assembly and compiled as shared libraries that were needed by the main program. Written in C++.&lt;/li&gt;
     &lt;li&gt; High-level: sensors&#39; calibration and reading, control law and motors&#39; output. Written in Python. &lt;/li&gt;
   &lt;/ul&gt;
-I have also contributed to the development of one Device Tree Source for BBB that was needed for the management of the board&#39;s I/O in my project. The source files can be found &lt;a href=&#34;https://github.com/beagleboard/devicetree-source&#34; class=&#34;link link--dark&#34;&gt;here.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; I have also contributed to the development of one Device Tree Source for BBB that was needed for the management of the board&#39;s I/O in my project. The source files can be found &lt;a href=&#34;https://github.com/beagleboard/devicetree-source&#34; class=&#34;link link--dark&#34;&gt;here.&lt;/p&gt;
 </description>
     </item>
     
