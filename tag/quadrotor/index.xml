@@ -47,7 +47,7 @@
       <guid>/project/autopilot/</guid>
       <description>&lt;p align=&#34;justify&#34;&gt;My undergraduate research focused essentially on developing a flight controller for a quadcopter prototype. I used a &lt;a href=&#34;https://beagleboard.org/black&#34;&gt;Beaglebone Black (BBB) Rev C&lt;/a&gt; with Debian 8 Jessie as a development board. The software had three layers that were divided according to the task: &lt;/p&gt;
   &lt;ul&gt;
-    &lt;li&gt; Low level: sonar altitude measurements. Written in Assembly and target to the BBB&#39;s programmable real-time unit (PRU).&lt;/li&gt;
+    &lt;li&gt; Low level: sonar altitude measurements. Written in Assembly and targeting the BBB&#39;s programmable real-time unit (PRU).&lt;/li&gt;
     &lt;li&gt; Middle level: methods written in C and compiled as shared libraries that were needed for the main program.&lt;/li&gt;
     &lt;li&gt; High level: calibration and reading of sensors, control law and motor output. Written in Python.&lt;/li&gt;
   &lt;/ul&gt;
