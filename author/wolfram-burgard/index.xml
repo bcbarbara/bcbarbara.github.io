@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wolfram Burgard | Bárbara</title>
+    <link>/author/wolfram-burgard/</link>
+      <atom:link href="/author/wolfram-burgard/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wolfram Burgard</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Wolfram Burgard</title>
+      <link>/author/wolfram-burgard/</link>
+    </image>
+    
+    <item>
+      <title>An Efficient Real-Time NMPC for Quadrotor Position Control under Communication Time-Delay</title>
+      <link>/publication/crazyflie-icarcv/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/crazyflie-icarcv/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
