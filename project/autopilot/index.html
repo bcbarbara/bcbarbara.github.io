@@ -679,11 +679,11 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p align="justify">My undergraduate research focused essentially on developing a flight controller for a quadcopter prototype. I used a <a href="https://beagleboard.org/black">Beaglebone Black (BBB) Rev C</a> with Debian 8 Jessie as a development board. The software had three layers that were divided according to the task: </p>
+      <p align="justify">My undergraduate research focused essentially on developing a flight controller for a quadcopter prototype. I used a <a href="https://beagleboard.org/black">Beaglebone Black (BBB) Rev C</a> with Debian 8 Jessie as a development board. The software had three layers, divided as follows: </p>
   <ul>
-    <li> Low level: sonar altitude measurements. Written in Assembly and targeting the BBB's programmable real-time unit (PRU).</li>
-    <li> Middle level: methods written in C and compiled as shared libraries that were needed for the main program.</li>
-    <li> High level: calibration and reading of sensors, control law and motor output. Written in Python.</li>
+    <li> Low level: sonar altitude measurements. This layer was written in Assembly and designed for the BBB's programmable real-time unit (PRU).</li>
+    <li> Middle level: motor PWM signals. This layer was written in C and compiled as shared libraries.</li>
+    <li> High level: calibration and reading of sensors, control law, and motor output. This layer was written in Python.</li>
   </ul>
 <p align="justify"> I also contributed to the development of a BBB Device Tree Source, as I needed a customized board I/O management in my project. The source files can be found <a href="https://github.com/beagleboard/devicetree-source" class="link link--dark">here.</p>
 

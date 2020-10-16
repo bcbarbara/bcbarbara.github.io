@@ -37,7 +37,7 @@
       <link>/project/pendubot/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/project/pendubot/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt; At the beginning of my studies on real-time NMPC, I worked on its application to a challenging underactuated system. The NMPC was combined with control-state trajectories generated from a learned policy to enforce constraints on a robotic system. This method was experimentally validated on the Pendubot, aiming to perform a swing-up task. &lt;/p&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt; This was my first project working with real-time NMPC. Here, the NMPC was combined with a learned control policy to enforce safety in robotic systems. The algorithm was validated using the Pendubot, a challenging underactuated system, in a swing-up task.&lt;/p&gt;
 </description>
     </item>
     
@@ -46,11 +46,11 @@
       <link>/project/autopilot/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/project/autopilot/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt;My undergraduate research focused essentially on developing a flight controller for a quadcopter prototype. I used a &lt;a href=&#34;https://beagleboard.org/black&#34;&gt;Beaglebone Black (BBB) Rev C&lt;/a&gt; with Debian 8 Jessie as a development board. The software had three layers that were divided according to the task: &lt;/p&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt;My undergraduate research focused essentially on developing a flight controller for a quadcopter prototype. I used a &lt;a href=&#34;https://beagleboard.org/black&#34;&gt;Beaglebone Black (BBB) Rev C&lt;/a&gt; with Debian 8 Jessie as a development board. The software had three layers, divided as follows: &lt;/p&gt;
   &lt;ul&gt;
-    &lt;li&gt; Low level: sonar altitude measurements. Written in Assembly and targeting the BBB&#39;s programmable real-time unit (PRU).&lt;/li&gt;
-    &lt;li&gt; Middle level: methods written in C and compiled as shared libraries that were needed for the main program.&lt;/li&gt;
-    &lt;li&gt; High level: calibration and reading of sensors, control law and motor output. Written in Python.&lt;/li&gt;
+    &lt;li&gt; Low level: sonar altitude measurements. This layer was written in Assembly and designed for the BBB&#39;s programmable real-time unit (PRU).&lt;/li&gt;
+    &lt;li&gt; Middle level: motor PWM signals. This layer was written in C and compiled as shared libraries.&lt;/li&gt;
+    &lt;li&gt; High level: calibration and reading of sensors, control law, and motor output. This layer was written in Python.&lt;/li&gt;
   &lt;/ul&gt;
 &lt;p align=&#34;justify&#34;&gt; I also contributed to the development of a BBB Device Tree Source, as I needed a customized board I/O management in my project. The source files can be found &lt;a href=&#34;https://github.com/beagleboard/devicetree-source&#34; class=&#34;link link--dark&#34;&gt;here.&lt;/p&gt;
 </description>
