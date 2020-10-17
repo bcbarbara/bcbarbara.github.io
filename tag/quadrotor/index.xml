@@ -59,7 +59,7 @@
     &lt;li&gt; Middle level: motor PWM signals. This layer was written in C and compiled as shared libraries.&lt;/li&gt;
     &lt;li&gt; High level: calibration and reading of sensors, control law, and motor output. This layer was written in Python.&lt;/li&gt;
   &lt;/ul&gt;
-&lt;p align=&#34;justify&#34;&gt; I also contributed to the development of a BBB Device Tree Source, as I needed a customized board I/O management in my project. The source files can be found &lt;a href=&#34;https://github.com/beagleboard/devicetree-source&#34; class=&#34;link link--dark&#34;&gt;here.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; I also contributed to the development of a BBB Device Tree Source, as I needed a custom management of the board&#39;s I/O pins in my project. The source files can be found &lt;a href=&#34;https://github.com/beagleboard/devicetree-source&#34; class=&#34;link link--dark&#34;&gt;here.&lt;/p&gt;
 </description>
     </item>
     
