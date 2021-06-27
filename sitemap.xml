@@ -3,6 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/antonio-franchi/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/barbara-barros-carlos/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/giuseppe-oriolo/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mikrokopter/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/nmpc/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/micontroller_ral/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/1/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
@@ -18,21 +78,6 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/barbara-barros-carlos/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/crazyflie/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
@@ -43,37 +88,12 @@
   </url>
   
   <url>
-    <loc>/author/giuseppe-oriolo/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/moritz-diehl/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/nmpc/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/quadrotor/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
