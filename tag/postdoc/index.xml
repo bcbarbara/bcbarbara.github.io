@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MikroKopter | Bárbara</title>
-    <link>/tag/mikrokopter/</link>
-      <atom:link href="/tag/mikrokopter/index.xml" rel="self" type="application/rss+xml" />
-    <description>MikroKopter</description>
+    <title>PostDoc | Bárbara</title>
+    <link>/tag/postdoc/</link>
+      <atom:link href="/tag/postdoc/index.xml" rel="self" type="application/rss+xml" />
+    <description>PostDoc</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>MikroKopter</title>
-      <link>/tag/mikrokopter/</link>
+      <title>PostDoc</title>
+      <link>/tag/postdoc/</link>
     </image>
     
     <item>
@@ -19,14 +19,6 @@
       <guid>/project/multi_uav/</guid>
       <description>&lt;p align=&#34;justify&#34;&gt; Collision-Free motion of multi-quadrotor system.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Towards Safe Human-Quadrotor Interaction: Mixed-Initiative Control via Real-Time NMPC</title>
-      <link>/publication/micontroller_ral/</link>
-      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/micontroller_ral/</guid>
-      <description></description>
     </item>
     
   </channel>
