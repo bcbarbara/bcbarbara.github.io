@@ -5,7 +5,7 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -13,11 +13,20 @@
     </image>
     
     <item>
+      <title>State and parameter estimation</title>
+      <link>/project/mhe_human/</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/project/mhe_human/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt; This research proposes a systematic approach to characterizing the behavior of human pilots engaged in a tracking task. &amp;quot;Behavior&amp;quot; should be understood as different control strategies that quadrotor pilots use to accomplish their goals, which are usually manifested through their joystick inputs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Multi-UAV system</title>
       <link>/project/multi_uav/</link>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
       <guid>/project/multi_uav/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt; Collision-Free motion of multi-quadrotor system.&lt;/p&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt; Real-time distributed NMPC for tracking and formation control of multi-UAV systems.&lt;/p&gt;
 </description>
     </item>
     

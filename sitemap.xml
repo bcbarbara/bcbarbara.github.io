@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2021-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mhe/</loc>
+    <lastmod>2021-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/postdoc/</loc>
+    <lastmod>2021-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2021-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/mhe_human/</loc>
+    <lastmod>2021-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url>
@@ -14,11 +44,6 @@
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,27 +78,12 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/micontroller_ral/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/multi_uav/</loc>
-    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/postdoc/</loc>
-    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
   </url>
   
