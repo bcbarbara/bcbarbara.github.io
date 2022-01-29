@@ -7,7 +7,7 @@
     <description>Bárbara</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu3aee2529a7802135ef5e3ff57fc5468e_67629_512x512_fill_lanczos_center_2.png</url>
       <title>Bárbara</title>
       <link>/</link>
     </image>
@@ -34,7 +34,7 @@
       <link>/project/multi_uav/</link>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
       <guid>/project/multi_uav/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt; Real-time distributed NMPC for tracking and formation control of multi-UAV systems.&lt;/p&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt; Real-time distributed NMPC for tracking and formation control of multi-UAV systems in forest-like environments.&lt;/p&gt;
 </description>
     </item>
     
