@@ -5,7 +5,7 @@
     <link>/tag/mhe/</link>
       <atom:link href="/tag/mhe/index.xml" rel="self" type="application/rss+xml" />
     <description>MHE</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu3aee2529a7802135ef5e3ff57fc5468e_67629_512x512_fill_lanczos_center_2.png</url>
       <title>MHE</title>
@@ -13,11 +13,11 @@
     </image>
     
     <item>
-      <title>State and parameter estimation</title>
+      <title>Parameter estimation and input prediction</title>
       <link>/project/mhe_human/</link>
-      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
       <guid>/project/mhe_human/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt; This research proposes a systematic approach to characterizing the behavior of human pilots engaged in a tracking task. &amp;quot;Behavior&amp;quot; should be understood as different control strategies that quadrotor pilots use to accomplish their goals, which are usually manifested through their joystick inputs.&lt;/p&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt; This research proposes a systematic approach to characterizing the behavior of human pilots engaged in a tracking task. &amp;quot;Behavior&amp;quot; should be understood as different control strategies that pilots use to accomplish their goals, which are usually manifested through their joystick inputs.&lt;/p&gt;
 </description>
     </item>
     
