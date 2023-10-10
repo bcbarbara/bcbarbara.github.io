@@ -5,12 +5,21 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu3aee2529a7802135ef5e3ff57fc5468e_67629_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
+    
+    <item>
+      <title>Stan</title>
+      <link>/project/stan/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/project/stan/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt; The car-like robot Stan is my first application of real-time NMPC to the industry. The main goal of the algorithm in this scenario is to improve retrieval time and ensure the safety of the robot and any car being carried.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Parameter estimation and input prediction</title>

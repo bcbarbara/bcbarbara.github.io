@@ -5,12 +5,29 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Bárbara</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu3aee2529a7802135ef5e3ff57fc5468e_67629_512x512_fill_lanczos_center_2.png</url>
       <title>Bárbara</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Real-Time NMPC for an Automated Valet Parking with Load-Based Safety Constraints and a Path-Parametric Model</title>
+      <link>/publication/stan_iros/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/stan_iros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stan</title>
+      <link>/project/stan/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/project/stan/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt; The car-like robot Stan is my first application of real-time NMPC to the industry. The main goal of the algorithm in this scenario is to improve retrieval time and ensure the safety of the robot and any car being carried.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Parameter estimation and input prediction</title>

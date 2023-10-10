@@ -5,12 +5,20 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu3aee2529a7802135ef5e3ff57fc5468e_67629_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Real-Time NMPC for an Automated Valet Parking with Load-Based Safety Constraints and a Path-Parametric Model</title>
+      <link>/publication/stan_iros/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/stan_iros/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An Efficient Real-Time NMPC for Quadrotor Position Control under Communication Time-Delay</title>

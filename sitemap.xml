@@ -3,17 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/mhe/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/benoit-pelourdeau/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/barbara-barros-carlos/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/martin-williams/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/nmpc/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/stan_iros/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/stan/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/industry/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/stan/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mhe/</loc>
     <lastmod>2022-03-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,32 +93,12 @@
   </url>
   
   <url>
-    <loc>/project/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/antonio-franchi/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/barbara-barros-carlos/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,16 +113,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/micontroller_ral/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url>
@@ -85,11 +120,6 @@
   <url>
     <loc>/project/multi_uav/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Industry | Bárbara</title>
+    <link>/tag/industry/</link>
+      <atom:link href="/tag/industry/index.xml" rel="self" type="application/rss+xml" />
+    <description>Industry</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu3aee2529a7802135ef5e3ff57fc5468e_67629_512x512_fill_lanczos_center_2.png</url>
+      <title>Industry</title>
+      <link>/tag/industry/</link>
+    </image>
+    
+    <item>
+      <title>Stan</title>
+      <link>/project/stan/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/project/stan/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt; The car-like robot Stan is my first application of real-time NMPC to the industry. The main goal of the algorithm in this scenario is to improve retrieval time and ensure the safety of the robot and any car being carried.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

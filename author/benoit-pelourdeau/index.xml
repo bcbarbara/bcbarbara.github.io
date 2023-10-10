@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benoit Pelourdeau | Bárbara</title>
+    <link>/author/benoit-pelourdeau/</link>
+      <atom:link href="/author/benoit-pelourdeau/index.xml" rel="self" type="application/rss+xml" />
+    <description>Benoit Pelourdeau</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu3aee2529a7802135ef5e3ff57fc5468e_67629_512x512_fill_lanczos_center_2.png</url>
+      <title>Benoit Pelourdeau</title>
+      <link>/author/benoit-pelourdeau/</link>
+    </image>
+    
+    <item>
+      <title>Real-Time NMPC for an Automated Valet Parking with Load-Based Safety Constraints and a Path-Parametric Model</title>
+      <link>/publication/stan_iros/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/stan_iros/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
