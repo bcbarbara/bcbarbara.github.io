@@ -28,7 +28,7 @@ export function Accessibility() {
   );
 }
 
-export function Interactivity() {
+export function Experience() {
   return (
     <svg
       width="24px"
@@ -49,7 +49,7 @@ export function Interactivity() {
   );
 }
 
-export function Typography() {
+export function Mentoring() {
   return (
     <svg
       width="24px"
@@ -71,7 +71,7 @@ export function Typography() {
   );
 }
 
-export function Motion() {
+export function Education() {
   return (
     <svg
       width="24px"
@@ -107,7 +107,7 @@ export function Motion() {
   );
 }
 
-export function Touch() {
+export function Publications() {
   return (
     <svg
       width="24px"
@@ -136,7 +136,7 @@ export function Touch() {
   );
 }
 
-export function Optimizations() {
+export function Community() {
   return (
     <svg
       width="24px"
@@ -205,11 +205,11 @@ export function GitHub() {
 }
 
 export const Icons = {
-  interactivity: <Interactivity />,
-  typography: <Typography />,
-  motion: <Motion />,
-  touch: <Touch />,
-  optimizations: <Optimizations />,
+  experience: <Experience />,
+  education: <Education />,
+  publications: <Publications />,
+  mentoring: <Mentoring />,
+  community: <Community />,
   design: <Design />,
   accessibility: <Accessibility />,
 };

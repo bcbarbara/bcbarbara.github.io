@@ -3,22 +3,14 @@ import "./globals.scss";
 const url = "https://bcbarbara.github.io";
 const title = "Bárbara Barros Carlos";
 const description = "Minimal personal website.";
-const ogUrl = `${url}/og.png`;
 
 export const metadata = {
   title,
   description,
-  openGraph: {
-    title,
-    description,
-    url,
-    images: [{ url: ogUrl }],
-  },
   twitter: {
     card: "summary_large_image",
     title,
-    description,
-    images: [ogUrl],
+    description
   },
 };
 

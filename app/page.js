@@ -15,7 +15,7 @@ export default async function Index() {
       <VerticalFade
         side="top"
         style={{
-          height: 300,
+          height: 200,
         }}
       />
       <VerticalFade
@@ -93,14 +93,14 @@ export default async function Index() {
               top: "calc(var(--lh) * 3 - var(--offset) * 2 + 1px)",
             }}
           />
-          Web <br />
-          Interface <br />
-          Guidelines
+        Bárbara <br />
+        Barros Carlos <br />
+        <span style={{ fontSize: '2rem' }}>Robotics Engineer, PhD</span>
         </h1>
       </div>
 
       <div className="content">
-        <h2>Introduction</h2>
+        <h2>About</h2>
         <MDXRemote
           source={markdown.content}
           options={{
