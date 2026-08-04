@@ -1,9 +1,8 @@
 import "./globals.scss";
 
-const url = "https://interfaces.rauno.me";
-const title = "Web Interface Guidelines";
-const description =
-  "A non-exhaustive list of details that make a good web interface.";
+const url = "https://bcbarbara.github.io";
+const title = "Bárbara Barros Carlos";
+const description = "Minimal personal website.";
 const ogUrl = `${url}/og.png`;
 
 export const metadata = {

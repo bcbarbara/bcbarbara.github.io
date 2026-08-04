@@ -1,4 +1,4 @@
-# Web Interface Guidelines
+# Bárbara Barros Carlos
 
 This document outlines a non-exhaustive list of details that make a good (web) interface. It is a living document, periodically updated based on learnings. Some of these may be subjective, but most apply to all websites.
 
