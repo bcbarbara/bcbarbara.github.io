@@ -79,7 +79,20 @@ I like bridging theory and practice — taking advanced control and estimation a
   **[Enforcing Constraints over Learned Policies via Nonlinear MPC: Application to the Pendubot](https://www.sciencedirect.com/science/article/pii/S2405896320331086)**<br />
   *G. Turrisi, B. Barros Carlos, M. Cefalo, V. Modugno, L. Lanari, and G. Oriolo* — IFAC-PaperOnLine, 2020
 
-[//]: # (## Mentoring)
+## Mentoring
+
+- Stanley Robotics — Internship & MSc Thesis Supervisor <br />
+  *Paris, France · 2025* <br />
+  - NMPC framework for safe and robust navigation of Stan in narrow lanes under unmeasured disturbances
+
+- Sapienza Università di Roma — MSc Thesis Supervisor <br />
+  *Rome, Italy · 2021* <br />
+  - Distributed NMPC for tracking and formation control of multi-UAV systems in forest-like environments
+
+- Sapienza Università di Roma — Project Supervisor <br />
+  *Rome, Italy · 2018* <br />
+  - Flying inverted pendulum, supervised for a 1st-year student of Scuola Superiore di Studi Avanzati Sapienza (SSAS)
+  - Nonlinear observability and estimation via the dynamic bearing observability matrix for multi-agent systems, supervised for the Control of Autonomous Multi-Agent Systems course
 
 [//]: # ()
 [//]: # (## Community)

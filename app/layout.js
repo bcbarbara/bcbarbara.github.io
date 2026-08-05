@@ -2,7 +2,7 @@ import "./globals.scss";
 
 const url = "https://bcbarbara.github.io";
 const title = "Bárbara Barros Carlos";
-const description = "Minimal personal website.";
+const description = "Minimal portfolio.";
 
 export const metadata = {
   title,
