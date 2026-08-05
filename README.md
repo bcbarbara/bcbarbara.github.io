@@ -80,7 +80,6 @@ I like bridging theory and practice — taking advanced control and estimation a
   *G. Turrisi, B. Barros Carlos, M. Cefalo, V. Modugno, L. Lanari, and G. Oriolo* — IFAC-PaperOnLine, 2020
 
 ## Mentoring
-
 - Stanley Robotics — Internship & MSc Thesis Supervisor <br />
   *Paris, France · 2025* <br />
   - NMPC framework for safe and robust navigation of Stan in narrow lanes under unmeasured disturbances
@@ -94,5 +93,31 @@ I like bridging theory and practice — taking advanced control and estimation a
   - Flying inverted pendulum, supervised for a 1st-year student of Scuola Superiore di Studi Avanzati Sapienza (SSAS)
   - Nonlinear observability and estimation via the dynamic bearing observability matrix for multi-agent systems, supervised for the Control of Autonomous Multi-Agent Systems course
 
-[//]: # ()
-[//]: # (## Community)
+## Community
+- [Efficient Real-Time NMPC for the Crazyflie 2.1 nanoquadrotor](https://github.com/bcbarbara/crazyflie_nmpc) <br />
+  *Open-source ROS stack · 2019* <br />
+  - Modular, real-time NMPC implementation tailored to the Crazyflie 2.1, with time-delay compensation and actuator bound enforcement
+  - Built on [acados](https://github.com/acados/acados), leveraging its real-time iteration SQP scheme with Gauss-Newton Hessian approximation
+  - Quadratic subproblems solved via [HPIPM](https://github.com/giaf/hpipm) (interior-point method) on top of [BLASFEO](https://github.com/giaf/blasfeo), with partial condensing applied to further reduce solution times
+
+## Skills
+<div className="skills-grid">
+  <div className="skill-col">
+    <p><strong>Programming Languages</strong><br />C++, C, Python, MATLAB</p>
+    <p><strong>Building Systems</strong><br />Catkin, CMake, Make</p>
+    <p><strong>Development Tools</strong><br />VS Code, PyCharm, Terminal</p>
+    <p><strong>Numerical Optimization</strong><br />CasADi, ACADO, acados</p>
+
+  </div>
+  <div className="skill-col">
+    <p><strong>NMPC Solvers</strong><br />HPIPM, qpOASES, IPOPT</p>
+    <p><strong>Visualization</strong><br />Foxglove, RViz</p>
+    <p><strong>Robot Simulators</strong><br />Gazebo, PyBullet</p>
+    <p><strong>Operating Systems</strong><br />Linux, macOS</p>
+  </div>
+  <div className="skill-col">
+    <p><strong>Hardware</strong><br />ATmega32, ARM Cortex-A8</p>
+    <p><strong>Middleware</strong><br />ROS, GenoM3</p>
+    <p><strong>Misc</strong><br />Git, LaTeX, Docker</p>
+  </div>
+</div>

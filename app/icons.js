@@ -1,4 +1,4 @@
-export function Accessibility() {
+export function Programming() {
   return (
     <svg
       width="24px"
@@ -158,7 +158,7 @@ export function Community() {
   );
 }
 
-export function Design() {
+export function Skills() {
   return (
     <svg
       width="24px"
@@ -210,6 +210,6 @@ export const Icons = {
   publications: <Publications />,
   mentoring: <Mentoring />,
   community: <Community />,
-  design: <Design />,
-  accessibility: <Accessibility />,
+  skills: <Skills />,
+  programming: <Programming />,
 };

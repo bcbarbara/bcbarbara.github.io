@@ -5,12 +5,13 @@ const title = "Bárbara Barros Carlos";
 const description = "Minimal portfolio.";
 
 export const metadata = {
+  metadataBase: new URL(url),
   title,
   description,
   twitter: {
     card: "summary_large_image",
     title,
-    description
+    description,
   },
 };
 
