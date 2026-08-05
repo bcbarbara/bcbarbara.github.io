@@ -5,7 +5,6 @@ Hello, I am Bárbara! I work at the intersection of numerical optimization, cont
 I like bridging theory and practice — taking advanced control and estimation algorithms out of the paper and into safety-critical, dynamic environments.
 
 ## Experience
-
 - [Parrot](https://www.parrot.com/en) — State Estimation & Sensor Fusion Engineer <br />
   *Paris, France · Jul 2026 – Present*
   - Improving GNSS-denied navigation robustness for state estimation on autonomous drones
@@ -13,22 +12,29 @@ I like bridging theory and practice — taking advanced control and estimation a
 
 - [Stanley Robotics](https://www.stanley-robotics.com) — Trajectory Planning, Control & State Estimation Engineer <br />
   *Paris, France · May 2022 – Jun 2026*
-  - Led development of real-time algorithms for the motion generation of Stan
+  - Owned Stan's navigation stack, acting as the primary decision-maker or approver for navigation-related choices
+  - Performed system identification to better characterize the actuation subsystem's dynamics, improving control accuracy and simulation fidelity
+  - Designed and deployed a real-time nonlinear model predictive contouring controller (NMPCC) for trajectory tracking
+  - Extended the NMPCC to an offset-free formulation, including the design and implementation of a disturbance observer for robustness to unmeasured disturbances
+  - Designed and deployed a bicycle-model-based Extended Kalman Filter (EKF) for robot localisation
+  - Developed kinodynamically-feasible trajectory replanning based on sequential quadratic programming (SQP)
+  - Coordinated across teams to align fleet-level decision-making with single-robot navigation strategies
+  - Improved the robot mock — a simplified simulator used for testing navigation development — to better reflect real-world dynamics
 
 - ITIC — Researcher <br />
   *Fortaleza, Brazil · Mar 2015 – Jun 2017*
-  - Quadrotor hardware technician
-  - Developed an autopilot using BeagleBone Black
-  - Technical project writer
+  - Served as hardware technician for a quadrotor research platform
+  - Developed an autopilot system based on the BeagleBone Black
+  - Authored technical documentation for research projects
 
 - LIT/IFCE — Undergraduate Research Assistant <br />
   *Fortaleza, Brazil · Aug 2014 – Aug 2017*
-  - Developed a quadrotor prototype
+  - Designed and built a quadrotor prototype
 
 - ITIC — Education Robotics Teacher <br />
   *Fortaleza, Brazil · Dec 2013 – Dec 2014*
-  - PIC 18FXX5X-based embedded systems development
-  - Taught logic, programming, electricity, and basic electronics
+  - Developed embedded systems projects based on the PIC 18FXX5X microcontroller
+  - Taught foundational logic, programming, electricity, and electronics to students
 
 ## Education
 - Sapienza Università di Roma — Postdoctoral Research Fellow <br />
